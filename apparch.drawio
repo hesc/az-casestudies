@@ -1,0 +1,33 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Seite-1" id="bBezbx3rPSZDTyqpCo9F">
+    <mxGraphModel dx="868" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mrBbSwcCkJ9szZskStjO-1" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="500" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="mrBbSwcCkJ9szZskStjO-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" value="" vertex="1">
+          <mxGeometry height="60" width="68" x="500" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mrBbSwcCkJ9szZskStjO-3" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_queue;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mrBbSwcCkJ9szZskStjO-5" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" value="Web Site" vertex="1">
+          <mxGeometry height="68" width="68" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mrBbSwcCkJ9szZskStjO-6" edge="1" parent="1" source="mrBbSwcCkJ9szZskStjO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.04;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="mrBbSwcCkJ9szZskStjO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mrBbSwcCkJ9szZskStjO-7" connectable="0" parent="mrBbSwcCkJ9szZskStjO-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="upload event" vertex="1">
+          <mxGeometry relative="1" x="-0.382" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrBbSwcCkJ9szZskStjO-8" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Event_Grid.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="320" y="169" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
