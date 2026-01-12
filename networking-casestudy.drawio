@@ -16,7 +16,7 @@
         <mxCell id="bUdwIvNm4ze3Wp4IUBdj-6" edge="1" parent="1" source="bUdwIvNm4ze3Wp4IUBdj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="bUdwIvNm4ze3Wp4IUBdj-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-4" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.customer_gateway;" value="vpn GW" vertex="1">
+        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-4" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.customer_gateway;" value="VPN GW" vertex="1">
           <mxGeometry height="30" width="30" x="300" y="370" as="geometry" />
         </mxCell>
         <mxCell id="bUdwIvNm4ze3Wp4IUBdj-7" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.customer_gateway;" value="Express RouteGW" vertex="1">
@@ -58,7 +58,7 @@
           <mxGeometry height="100" width="140" x="640" y="320" as="geometry" />
         </mxCell>
         <mxCell id="bUdwIvNm4ze3Wp4IUBdj-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
-          <mxGeometry height="100" width="270" x="460" y="485" as="geometry" />
+          <mxGeometry height="140" width="320" x="460" y="460" as="geometry" />
         </mxCell>
         <mxCell id="bUdwIvNm4ze3Wp4IUBdj-18" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" value="" vertex="1">
           <mxGeometry height="68" width="68" x="540" y="501" as="geometry" />
@@ -87,7 +87,7 @@
         <mxCell id="bUdwIvNm4ze3Wp4IUBdj-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AZ1" vertex="1">
           <mxGeometry height="30" width="60" x="646" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-28" edge="1" parent="1" source="bUdwIvNm4ze3Wp4IUBdj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bUdwIvNm4ze3Wp4IUBdj-15">
+        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-28" edge="1" parent="1" source="bUdwIvNm4ze3Wp4IUBdj-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bUdwIvNm4ze3Wp4IUBdj-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="570" y="364" />
@@ -97,7 +97,7 @@
         <mxCell id="bUdwIvNm4ze3Wp4IUBdj-13" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" value="Azure App Services" vertex="1">
           <mxGeometry height="48" width="48" x="530" y="216" as="geometry" />
         </mxCell>
-        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-29" edge="1" parent="1" source="bUdwIvNm4ze3Wp4IUBdj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bUdwIvNm4ze3Wp4IUBdj-15">
+        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-29" edge="1" parent="1" source="bUdwIvNm4ze3Wp4IUBdj-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bUdwIvNm4ze3Wp4IUBdj-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="692" y="370" />
@@ -106,6 +106,29 @@
         </mxCell>
         <mxCell id="bUdwIvNm4ze3Wp4IUBdj-27" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" value="Azure App Services" vertex="1">
           <mxGeometry height="48" width="48" x="668" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-32" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="24.71" x="563.29" y="471" as="geometry" />
+        </mxCell>
+        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-35" edge="1" parent="1" source="bUdwIvNm4ze3Wp4IUBdj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bUdwIvNm4ze3Wp4IUBdj-34" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="692" y="264" as="sourcePoint" />
+            <mxPoint x="668" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-34" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="24.71" x="679.65" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-36" edge="1" parent="1" source="bUdwIvNm4ze3Wp4IUBdj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bUdwIvNm4ze3Wp4IUBdj-33" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="570" y="264" as="sourcePoint" />
+            <mxPoint x="600" y="364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bUdwIvNm4ze3Wp4IUBdj-33" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="24.71" x="553.29" y="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
