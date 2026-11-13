@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Vdkmj-PDaFblrwdD6g4b-1" parent="1" style="image;aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;points=[[0.5,0.003,0],[0.502,0.998,0],[0,0.499,0],[1,0.499,0],[0.976,0.093,0],[0.983,0.9,0],[0.017,0.9,0],[0.014,0.103,0]];labelPerimeter=1;" value="" vertex="1">
-          <mxGeometry height="64" width="48" x="120" y="817" as="geometry" />
-        </mxCell>
         <mxCell id="RIpmQcvMwdDTUrWxnIHk-7" edge="1" parent="1" source="RIpmQcvMwdDTUrWxnIHk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="RIpmQcvMwdDTUrWxnIHk-5" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="430" as="targetPoint" />
@@ -27,6 +24,15 @@
         <mxCell id="RIpmQcvMwdDTUrWxnIHk-19" connectable="0" parent="RIpmQcvMwdDTUrWxnIHk-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="REST" vertex="1">
           <mxGeometry relative="1" x="0.0173" y="2" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIpmQcvMwdDTUrWxnIHk-24" edge="1" parent="1" source="RIpmQcvMwdDTUrWxnIHk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RIpmQcvMwdDTUrWxnIHk-23">
+          <mxGeometry relative="1" x="-0.1304" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="810" />
+              <mxPoint x="159" y="810" />
+            </Array>
+            <mxPoint x="160" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RIpmQcvMwdDTUrWxnIHk-3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#B0D0D9;shape=mxgraph.archimate4.element;appType=comp;archiType=square;archiDomain=application;" value="DataAccess" vertex="1">
@@ -55,19 +61,6 @@
         <mxCell id="RIpmQcvMwdDTUrWxnIHk-13" edge="1" parent="1" source="RIpmQcvMwdDTUrWxnIHk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="RIpmQcvMwdDTUrWxnIHk-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RIpmQcvMwdDTUrWxnIHk-14" edge="1" parent="1" source="RIpmQcvMwdDTUrWxnIHk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Vdkmj-PDaFblrwdD6g4b-1">
-          <mxGeometry relative="1" x="-0.0012" as="geometry">
-            <Array as="points">
-              <mxPoint x="170" y="778.5" />
-              <mxPoint x="144" y="778.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RIpmQcvMwdDTUrWxnIHk-15" connectable="0" parent="RIpmQcvMwdDTUrWxnIHk-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="JDBC" vertex="1">
-          <mxGeometry relative="1" x="-0.0644" y="-2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RIpmQcvMwdDTUrWxnIHk-16" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.enterprise.database_server;labelPerimeter=1;" value="" vertex="1">
           <mxGeometry height="50" width="38" x="200" y="830" as="geometry" />
         </mxCell>
@@ -81,6 +74,9 @@
               <mxPoint x="272.3" y="785.5" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RIpmQcvMwdDTUrWxnIHk-23" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="DB" vertex="1">
+          <mxGeometry height="60" width="38" x="140" y="821" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
